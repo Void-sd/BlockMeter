@@ -20,6 +20,10 @@ repositories {
     maven {
         url = "https://jitpack.io"
     }
+
+    maven {
+        url = "https://www.cursemaven.com"
+    }
 }
 
 sourceCompatibility = 1.8
@@ -66,6 +70,7 @@ dependencies {
     modCompile  "io.github.prospector:modmenu:${Versions['modmenu_version']}"
     modCompile  "me.shedaniel.cloth:config-2:${Versions['clothconfig_version']}"
     modCompile  "me.sargunvohra.mcmods:autoconfig1u:${Versions['autoconfig_version']}"
+    modCompile  "curse.maven:modupdater:${Versions['modupdater_fileid']}"
 
     include     "me.shedaniel.cloth:config-2:${Versions['clothconfig_version']}"
     include     "me.sargunvohra.mcmods:autoconfig1u:${Versions['autoconfig_version']}"
